@@ -1,19 +1,19 @@
-/ui/node_modules
-/ui//dist
-
-/ui/package-lock.json
-
-/tests/e2e/videos/
-/tests/e2e/screenshots/
+cmd/cmd
+cmd/static.go
+ui/dist/
+ui/node_modules
+ui/package-lock.json
+ui/tests/e2e/videos/
+ui/tests/e2e/screenshots/
 
 # local env files
-.env.local
-.env.*.local
+ui/.env.local
+ui/.env.*.local
 
 # Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+ui/npm-debug.log*
+ui/yarn-debug.log*
+ui/yarn-error.log*
 
 # Editor directories and files
 .idea
@@ -24,4 +24,4 @@ yarn-error.log*
 *.sln
 *.sw*
 
-build/env.js
+ui/build/env.js
